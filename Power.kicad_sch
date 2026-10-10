@@ -1314,6 +1314,12 @@
 		(uuid "2846e7ea-d1f0-4d4f-8720-a201d6a4e21b")
 	)
 	(junction
+		(at 200.66 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29d02f62-351b-4d24-a1ba-a4fbdf99b691")
+	)
+	(junction
 		(at 99.06 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1460,6 +1466,16 @@
 			(type default)
 		)
 		(uuid "2964538b-8410-4e7d-86da-f877652fc02f")
+	)
+	(wire
+		(pts
+			(xy 208.28 96.52) (xy 200.66 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c93f925-5d8e-449f-a6b7-bd58ca2c7fc0")
 	)
 	(wire
 		(pts
@@ -1811,16 +1827,6 @@
 		)
 		(uuid "fdee14ef-50a2-4ca3-829e-3f2f40cb1e14")
 	)
-	(label "+24V_AUX"
-		(at 34.29 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "326aef7a-f95b-4f71-97de-489bf189911a")
-	)
 	(label "+24_FUSED"
 		(at 74.93 101.6 0)
 		(effects
@@ -1831,15 +1837,53 @@
 		)
 		(uuid "b7c5e5cc-5b34-4167-a90c-9f6e16748995")
 	)
-	(label "+6V"
-		(at 196.85 96.52 0)
+	(global_label "+6V"
+		(shape input)
+		(at 208.28 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f933030d-141b-4cfc-ac8f-ee7ee6898b3a")
+		(uuid "5249a995-e07c-4bc2-86c1-fcabfbaea395")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.1357 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "+24V_AUX"
+		(shape input)
+		(at 34.29 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe4138fe-64d8-4e45-a1b9-624cf6724b42")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.6286 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
