@@ -2,9 +2,193 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 194710d2-c7e3-4b3e-93c6-2b6cf88164b3)
+	(uuid "194710d2-c7e3-4b3e-93c6-2b6cf88164b3")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 139.7 46.99)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0670437e-ada0-4c2a-b5f9-f45e4e1a367d")
+		(property "Sheetname" "FPGA Input"
+			(at 139.7 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FPGA_Input.kicad_sch"
+			(at 139.7 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iAOLLS_AOTF_FPGA_Interface"
+				(path "/194710d2-c7e3-4b3e-93c6-2b6cf88164b3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 110.49)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ceb44860-ded0-4289-8bf9-6ebfd316ecdd")
+		(property "Sheetname" "Analog Switch"
+			(at 66.04 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Analog_Switch.kicad_sch"
+			(at 66.04 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iAOLLS_AOTF_FPGA_Interface"
+				(path "/194710d2-c7e3-4b3e-93c6-2b6cf88164b3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 110.49)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d4b01839-1b12-4b66-86dd-c046f97b22cc")
+		(property "Sheetname" "AOTF Output"
+			(at 139.7 109.7784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "AOTF_Output.kicad_sch"
+			(at 139.7 152.9846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iAOLLS_AOTF_FPGA_Interface"
+				(path "/194710d2-c7e3-4b3e-93c6-2b6cf88164b3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 46.99)
+		(size 60.96 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dbbb9d53-7227-4d96-bf35-d5861e40564b")
+		(property "Sheetname" "Power"
+			(at 66.04 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 66.04 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "iAOLLS_AOTF_FPGA_Interface"
+				(path "/194710d2-c7e3-4b3e-93c6-2b6cf88164b3"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
