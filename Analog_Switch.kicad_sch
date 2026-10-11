@@ -1488,10 +1488,10 @@
 		(uuid "d15755ab-7966-4032-85ea-cdc428e048f4")
 	)
 	(junction
-		(at 137.16 118.11)
+		(at 241.3 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "399d1d0f-20aa-40eb-bc46-c292349fefb0")
+		(uuid "189f3cd2-2c2c-4f06-a565-b0d63b645558")
 	)
 	(junction
 		(at 127 57.15)
@@ -1500,58 +1500,58 @@
 		(uuid "3b28eec4-0ef0-4e85-8e86-b7435827a427")
 	)
 	(junction
-		(at 241.3 118.11)
+		(at 137.16 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "43005b49-df30-4591-ada0-fcffd3ae6aef")
+		(uuid "4e575da9-211f-4834-991a-90669cff81b5")
 	)
 	(junction
 		(at 160.02 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "512de7b5-7dc6-4a59-b8a0-b9eb02cdaec5")
-	)
-	(junction
-		(at 127 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "76ca7917-7f65-4766-83ee-23904710d1c3")
-	)
-	(junction
-		(at 137.16 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "969f1928-e555-4112-9950-d8aebbe01a97")
-	)
-	(junction
-		(at 160.02 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c56c34a-2263-4ade-8e34-c7f4e54905c4")
-	)
-	(junction
-		(at 241.3 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1fe4df8-af7f-4b24-a0c2-3f292dec5256")
-	)
-	(junction
-		(at 209.55 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a6e3b05f-22d8-493f-9439-133feb95b073")
-	)
-	(junction
-		(at 218.44 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5adbc54-0dae-408f-a0be-3da5af0da8dc")
+		(uuid "a2d72bfa-07ec-4fa3-993a-a7e290ff8535")
 	)
 	(junction
 		(at 218.44 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e662a8ce-97a3-4554-85db-084e650a712b")
+		(uuid "b084dd83-e2db-421f-a16d-84df96efe4cc")
+	)
+	(junction
+		(at 218.44 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b24938b2-dadf-40f1-876b-47ef6b96f319")
+	)
+	(junction
+		(at 241.3 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c06c3d78-7b2c-4d53-82b4-e3fd527e6afe")
+	)
+	(junction
+		(at 137.16 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94d5cdc-d520-479a-b5c8-12913493d000")
+	)
+	(junction
+		(at 209.55 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb81a2cc-6136-4b9a-8d3e-ebe0bb11a422")
+	)
+	(junction
+		(at 127 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d19e731e-aff7-4bac-983c-64e85531dca3")
+	)
+	(junction
+		(at 160.02 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3a58190-8647-4193-8eb0-9f04064b0135")
 	)
 	(junction
 		(at 209.55 55.88)
@@ -1590,6 +1590,16 @@
 			(type default)
 		)
 		(uuid "039a4f31-23ca-4125-93bc-f246c4bd1ca8")
+	)
+	(wire
+		(pts
+			(xy 241.3 123.19) (xy 246.38 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a9f473-f7ed-40ea-9300-73aa71ca5bf0")
 	)
 	(wire
 		(pts
@@ -1743,7 +1753,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 59.69) (xy 127 62.23)
+			(xy 127 57.15) (xy 127 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 209.55 60.96)
+			(xy 209.55 55.88) (xy 209.55 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1800,16 +1810,6 @@
 			(type default)
 		)
 		(uuid "448ebd93-9f4a-46a0-9bb0-84e67c96a751")
-	)
-	(wire
-		(pts
-			(xy 127 57.15) (xy 127 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4afe163f-8b1a-4fcb-9c75-5444580ad90f")
 	)
 	(wire
 		(pts
@@ -2063,6 +2063,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 58.42) (xy 209.55 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e431bbe-2b76-41e8-af70-2d8c2ca34229")
+	)
+	(wire
+		(pts
 			(xy 43.18 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -2153,16 +2163,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 123.19) (xy 250.19 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c4b4e9-cec4-460e-9c3e-0fb19510eb86")
-	)
-	(wire
-		(pts
 			(xy 137.16 130.81) (xy 137.16 133.35)
 		)
 		(stroke
@@ -2210,6 +2210,16 @@
 			(type default)
 		)
 		(uuid "c426a85e-33ca-4572-8db0-435c6af6c0cb")
+	)
+	(wire
+		(pts
+			(xy 127 59.69) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52e0185-8cc0-4ab6-a6f1-0bcdf1042df8")
 	)
 	(wire
 		(pts
@@ -2323,16 +2333,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 55.88) (xy 209.55 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb1bf3a9-2213-498f-952a-4131656ee16d")
-	)
-	(wire
-		(pts
 			(xy 199.39 48.26) (xy 209.55 48.26)
 		)
 		(stroke
@@ -2352,7 +2352,7 @@
 		(uuid "f5391600-3832-42f7-8e73-f1bd3e9bf48c")
 	)
 	(label "CH2"
-		(at 161.29 64.77 0)
+		(at 110.49 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2362,7 +2362,7 @@
 		(uuid "01bf6cac-8997-4151-8be7-32abba03ef78")
 	)
 	(label "CH5_NI23_DIO9"
-		(at 191.77 68.58 0)
+		(at 243.84 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2382,7 +2382,7 @@
 		(uuid "0c5dc021-0755-408e-bec7-03124a6d7c52")
 	)
 	(label "CH4_NI19_DIO13"
-		(at 191.77 45.72 0)
+		(at 243.84 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2402,7 +2402,7 @@
 		(uuid "15a18c0f-b258-443a-bc07-617535157603")
 	)
 	(label "CH2_NI11_DIO21"
-		(at 161.29 69.85 0)
+		(at 110.49 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2452,7 +2452,7 @@
 		(uuid "19782c8d-222a-4665-9e54-9b1b775ba14d")
 	)
 	(label "CH6_NI27_DIO5"
-		(at 243.84 68.58 0)
+		(at 191.77 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2482,7 +2482,7 @@
 		(uuid "283f37be-9e55-451d-9541-67754f2a0ea2")
 	)
 	(label "CH1"
-		(at 110.49 64.77 0)
+		(at 161.29 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2512,7 +2512,7 @@
 		(uuid "4b2db608-8560-4913-a7f3-7624f70cbd95")
 	)
 	(label "BLNK"
-		(at 109.22 52.07 0)
+		(at 160.02 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2552,7 +2552,7 @@
 		(uuid "573da69a-53fd-4a38-850f-2a6dd82a0d30")
 	)
 	(label "CH7_NI31_DIO1"
-		(at 243.84 45.72 0)
+		(at 191.77 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2622,7 +2622,7 @@
 		(uuid "8dc924ff-c5e0-4e96-b0e6-4deeb4f9930d")
 	)
 	(label "CH5"
-		(at 193.04 63.5 0)
+		(at 243.84 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2642,7 +2642,7 @@
 		(uuid "94b77b42-a812-42f4-a446-457f136fbe18")
 	)
 	(label "CH7"
-		(at 243.84 50.8 0)
+		(at 191.77 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,7 +2652,7 @@
 		(uuid "9b401cad-c60c-4477-b892-769f97d7fb2b")
 	)
 	(label "BLNK_NI3_DIO29"
-		(at 109.22 46.99 0)
+		(at 160.02 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2692,7 +2692,7 @@
 		(uuid "a552f135-2711-4ed6-a765-32ab0d8a4224")
 	)
 	(label "CH4"
-		(at 191.77 50.8 0)
+		(at 243.84 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2702,7 +2702,7 @@
 		(uuid "ac90eef8-d5a4-457f-8dae-ffe61c1a6c19")
 	)
 	(label "CH3_NI15_DIO17"
-		(at 161.29 46.99 0)
+		(at 110.49 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 		(uuid "b0b6d6e2-7a1b-48bc-9570-2fb4ae564732")
 	)
 	(label "CH3"
-		(at 161.29 52.07 0)
+		(at 110.49 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2742,7 +2742,7 @@
 		(uuid "bca66f5c-2e92-4fc2-a167-502fc9de9a5d")
 	)
 	(label "CH6"
-		(at 243.84 63.5 0)
+		(at 193.04 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2822,7 +2822,7 @@
 		(uuid "e8851498-0b36-4418-991c-51477df9654d")
 	)
 	(label "CH1_NI7_DIO25"
-		(at 109.22 69.85 0)
+		(at 160.02 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3344,7 +3344,7 @@
 	)
 	(symbol
 		(lib_id "Imported:ADG1634BRUZ-REEL7")
-		(at 218.44 57.15 0)
+		(at 135.89 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3355,7 +3355,7 @@
 		(fields_autoplaced yes)
 		(uuid "0908e4ac-344b-4973-af8d-1329a43329bc")
 		(property "Reference" "U4"
-			(at 218.44 38.1 0)
+			(at 135.89 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3365,7 +3365,7 @@
 			)
 		)
 		(property "Value" "ADG1634BRUZ-REEL7"
-			(at 218.44 40.64 0)
+			(at 135.89 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3375,7 +3375,7 @@
 			)
 		)
 		(property "Footprint" "Imported:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
-			(at 218.44 76.2 0)
+			(at 135.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3386,7 +3386,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C579038.pdf"
-			(at 218.44 78.74 0)
+			(at 135.89 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3397,7 +3397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 218.44 57.15 0)
+			(at 135.89 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3408,7 @@
 			)
 		)
 		(property "Manufacturer" "ADI(亚德诺)"
-			(at 218.44 81.28 0)
+			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3419,7 +3419,7 @@
 			)
 		)
 		(property "MPN" "ADG1634BRUZ-REEL7"
-			(at 218.44 83.82 0)
+			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3430,7 +3430,7 @@
 			)
 		)
 		(property "LCSC Part" "C579038"
-			(at 218.44 86.36 0)
+			(at 135.89 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3833,7 +3833,7 @@
 	)
 	(symbol
 		(lib_id "Imported:OPA4192IDR")
-		(at 229.87 125.73 0)
+		(at 148.59 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3841,10 +3841,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f6f425a-c812-4411-9c5c-63a444c3edf2")
 		(property "Reference" "U6"
-			(at 229.87 110.49 0)
+			(at 148.59 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3854,7 +3853,7 @@
 			)
 		)
 		(property "Value" "OPA4192IDR"
-			(at 229.87 113.03 0)
+			(at 148.59 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3864,7 +3863,7 @@
 			)
 		)
 		(property "Footprint" "Imported:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
-			(at 229.87 140.97 0)
+			(at 148.59 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3875,7 +3874,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2057908.pdf"
-			(at 229.87 143.51 0)
+			(at 148.59 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3886,7 +3885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 229.87 125.73 0)
+			(at 148.59 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3897,7 +3896,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 229.87 146.05 0)
+			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3908,7 +3907,7 @@
 			)
 		)
 		(property "MPN" "OPA4192IDR"
-			(at 229.87 148.59 0)
+			(at 148.59 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3919,7 +3918,7 @@
 			)
 		)
 		(property "LCSC Part" "C2057908"
-			(at 229.87 151.13 0)
+			(at 148.59 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4460,7 +4459,7 @@
 	)
 	(symbol
 		(lib_id "Imported:ADG1634BRUZ-REEL7")
-		(at 135.89 58.42 0)
+		(at 218.44 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4471,7 +4470,7 @@
 		(fields_autoplaced yes)
 		(uuid "769404b9-a6f6-43dc-be60-a35b17436253")
 		(property "Reference" "U3"
-			(at 135.89 39.37 0)
+			(at 218.44 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4481,7 +4480,7 @@
 			)
 		)
 		(property "Value" "ADG1634BRUZ-REEL7"
-			(at 135.89 41.91 0)
+			(at 218.44 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4491,7 +4490,7 @@
 			)
 		)
 		(property "Footprint" "Imported:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
-			(at 135.89 77.47 0)
+			(at 218.44 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4502,7 +4501,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C579038.pdf"
-			(at 135.89 80.01 0)
+			(at 218.44 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4513,7 +4512,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 58.42 0)
+			(at 218.44 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4524,7 +4523,7 @@
 			)
 		)
 		(property "Manufacturer" "ADI(亚德诺)"
-			(at 135.89 82.55 0)
+			(at 218.44 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4535,7 +4534,7 @@
 			)
 		)
 		(property "MPN" "ADG1634BRUZ-REEL7"
-			(at 135.89 85.09 0)
+			(at 218.44 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4546,7 +4545,7 @@
 			)
 		)
 		(property "LCSC Part" "C579038"
-			(at 135.89 87.63 0)
+			(at 218.44 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4786,7 +4785,7 @@
 	)
 	(symbol
 		(lib_id "Imported:OPA4192IDR")
-		(at 148.59 125.73 0)
+		(at 229.87 125.73 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4794,10 +4793,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99e0943f-fe00-4b15-b6a3-73a2bfb5df0b")
 		(property "Reference" "U5"
-			(at 148.59 110.49 0)
+			(at 229.87 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4807,7 +4805,7 @@
 			)
 		)
 		(property "Value" "OPA4192IDR"
-			(at 148.59 113.03 0)
+			(at 229.87 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4817,7 +4815,7 @@
 			)
 		)
 		(property "Footprint" "Imported:SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
-			(at 148.59 140.97 0)
+			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4828,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C2057908.pdf"
-			(at 148.59 143.51 0)
+			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4839,7 +4837,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 125.73 0)
+			(at 229.87 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4850,7 +4848,7 @@
 			)
 		)
 		(property "Manufacturer" "TI(德州仪器)"
-			(at 148.59 146.05 0)
+			(at 229.87 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +4859,7 @@
 			)
 		)
 		(property "MPN" "OPA4192IDR"
-			(at 148.59 148.59 0)
+			(at 229.87 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +4870,7 @@
 			)
 		)
 		(property "LCSC Part" "C2057908"
-			(at 148.59 151.13 0)
+			(at 229.87 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
